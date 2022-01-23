@@ -12,7 +12,7 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
-  margin: 0 16px;
+  padding: 8px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -60,5 +60,6 @@ ul {
 .left-side,
 .right-side {
   display: flex;
-  gap: 8px;
+  align-items: center;
+  gap: 16px;
 }
